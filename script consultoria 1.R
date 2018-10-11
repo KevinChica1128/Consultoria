@@ -7,7 +7,13 @@ View(PROPUESTA_FUNDEMERCA_1_)
 datos<-as.data.frame(PROPUESTA_FUNDEMERCA_1_[,c(-1,-2)])
 row.names(datos)<-PROPUESTA_FUNDEMERCA_1_$Producor
 
-
+minimos<-c()
+Q1<-c()
+medianas<-c()
+medias<-c()
+Q3<-c()
+maximos<-c()
+desviaciones<-c()
 for (i in 1:length(datos[,1])) {
   minimos[i]<-c(summary(t(datos[i,]))[1])
   Q1[i]<-c(summary(t(datos[i,]))[2])
@@ -19,6 +25,13 @@ for (i in 1:length(datos[,1])) {
   descriptivas<-rbind(minimos,Q1,medianas,medias,Q3,maximos,desviaciones)
 }
 descriptivas<-as.data.frame(descriptivas)
-row.names(descriptivas)<-PROPUESTA_FUNDEMERCA_1_$Producor
+colnames(descriptivas)<-PROPUESTA_FUNDEMERCA_1_$Producor
 
+#Distribución mortalidades por productor
+install.packages("rriskDistributions")
+library(rriskDistributions)
+for (i in vector) {
+  
+}
+res1<-fit.cont(datos[20,][!is.na(datos[20,])]) #Ver distribución de las mortalidades de los individuos
 
