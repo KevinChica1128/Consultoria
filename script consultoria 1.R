@@ -73,7 +73,7 @@ library("HDInterval")
 library("TeachingDemos")
 
 #Cargamos la base de datos de los pollos muertos:
-pollosmuertos<- read_excel("GitHub/Consultoria/PROPUESTA FUNDEMERCA (2.5).xlsx")
+pollosmuertos<- read_excel("PROPUESTA FUNDEMERCA (2.5).xlsx")
 pollosmuertos<-as.data.frame(pollosmuertos[,c(-1,-2)])
 row.names(pollosmuertos)<-PROPUESTA_FUNDEMERCA_1_$Producor
 
