@@ -123,7 +123,7 @@ for (j in 1:length(datos[,1])) {
 
 #La distribución predictiva posterior es una binomial negativa:
 #La probabilidad de que el productor ALBEIRO HERNANDEZ tenga mas pollos muertos que en el ciclo 50 es:
-pnbinom(100,(1/2)+100,0.5,lower.tail = T)
+pnbinom(100,(1/2)+100,0.5,lower.tail = F)
 
 #Generalización para las probabilidades predictivas para cada ciclo por productor:
 PredictivasP<-data.frame(matrix(NA,48,26))#matriz para almacenar los intervalos
@@ -135,7 +135,7 @@ for (j in 1:length(datos[,1])) {
     if(anyNA(pollosmuertos[j,i-1])=="TRUE"){
       is.na<-PredictivasP[j,i]
     }else{
-      PredictivasP[j,i]=pnbinom(pollosmuertos[j,i-1],(1/2)+pollosmuertos[j,i-1],0.5,lower.tail = T)
+      PredictivasP[j,i]=pnbinom(pollosmuertos[j,i-1],(1/2)+pollosmuertos[j,i-1],0.5,lower.tail = F)
     }
   }
 }
