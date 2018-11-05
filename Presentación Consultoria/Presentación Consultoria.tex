@@ -1,0 +1,80 @@
+\documentclass[11pt]{beamer}
+\usetheme{CambridgeUS}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\setbeamertemplate{navigation symbols}{} 
+\author[Kevin García - Alejandro Vargas]{Kevin García \newline Alejandro Vargas }
+\title[Consultoria]{Consultoria: Propuesta Cetec}
+
+
+\newcommand\Wider[2][1em]{%
+\makebox[\linewidth][c]{%
+  \begin{minipage}{\dimexpr\textwidth+#1\relax}
+  \raggedright#2
+  \end{minipage}%
+  }%
+}
+
+
+%\setbeamercovered{transparent} 
+%\setbeamertemplate{navigation symbols}{} 
+%\logo{} 
+%\institute{} 
+%\date{} 
+%\subject{} 
+\begin{document}
+\justify
+\begin{frame}
+\titlepage
+\end{frame}
+
+%\begin{frame}
+%\tableofcontents
+%\end{frame}
+
+\begin{frame}
+\frametitle{Contenido}
+\begin{itemize}
+\item Problemas
+\item Metodología
+\item Recomendaciones
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Problemas}
+\begin{itemize}
+\item Problema general: El problema principal se centra en el manejo y validación de la información recogida y suministrada por los productores, la cuál se piensa que en algunos casos es errónea al no coincidir con la información final suministrada por Bucanero.
+\item Problemas detectados: Los problemas detectados en el proceso de solucionar el problema principal fueron los siguientes:
+\begin{itemize}
+\item[-]Orden y codificación de los productores.
+\item[-]Falta de información (datos faltantes).
+\item[-]Falta de manejo y control estadístico de los datos.
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Metodología}
+~\\Se presentará los pasos realizados para solucionar cada uno de los problemas detectados.
+\begin{itemize}
+\item[-]Se organizó una base de datos general, donde se suministro la información de cada productor por cada ciclo. Se trabajó con la cantidad inicial de pollos, y con la cantidad de pollos muertos.
+\item[-]La base de datos se organizó con los productores presentes en los últimos ciclos suministrados (75,76 y 77) ya que estos son con los que actualmente se esta trabajando. Tuvimos un total de 48 productores y de 28 ciclos (desde el ciclo 50 hasta el 77) de los cuales no habían datos en 6 de ellos (55,56,57,65,69 y 73), por lo cual el numero final de ciclos con los cuales se trabajo fue de 22.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Metodología}
+\begin{itemize}
+\item[-]Se organizaron las bases de datos con respecto a los nombres de los productores por orden alfabético y se codificaron del 1 al 48, lo cuál hace mucho más fácil el tratamiento, el seguimiento y la administración de los datos.
+\item[-]Para cada productor se realizo un intervalo de credibilidad para la cantidad de pollos muertos con una confianza del 95\%, es decir, que el 95\% de las veces, la cantidad real de pollos muertos que tenga el productor va a estar en el intervalo generado.
+\item[-]Se obtuvieron probabilidades predictivas, las cuales se interpretan como la probabilidad de que en un nuevo ciclo bajo las mismas condiciones, el productor tenga mas pollo muertos de los que tuvo.
+\item[-]No se me ocurre nada mas xd 
+\end{itemize}
+\end{frame}
+\end{document}
