@@ -73,8 +73,16 @@
 \begin{itemize}
 \item[-]Se organizaron las bases de datos con respecto a los nombres de los productores por orden alfabético y se codificaron del 1 al 48, lo cuál hace mucho más fácil el tratamiento, el seguimiento y la administración de los datos.
 \item[-]Para cada productor se realizo un intervalo de credibilidad para la cantidad de pollos muertos con una confianza del 95\%, es decir, que el 95\% de las veces, la cantidad real de pollos muertos que tenga el productor va a estar en el intervalo generado.
-\item[-]Se obtuvieron probabilidades predictivas, las cuales se interpretan como la probabilidad de que en un nuevo ciclo bajo las mismas condiciones, el productor tenga mas pollo muertos de los que tuvo.
-\item[-]No se me ocurre nada mas xd 
+\item[-]Se obtuvieron probabilidades predictivas, las cuales se interpretan como la probabilidad de que en un nuevo ciclo bajo las mismas condiciones, el productor tenga mas pollos muertos de los que tuvo.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Recomendaciones}
+\begin{itemize}
+\item[-]Se recomienda codificar los productores por orden alfabético para facilitar el manejo de los datos.
+\item[-]Cuando un productor no participe en un ciclo se recomienda no eliminarlo, simplemente se deja todo en blanco en dicho ciclo para ese productor, esto facilita que todo el proceso y los datos en general continúen con la misma forma y la misma longitud para evitar confusiones posteriores.
+\item[-]Cuando un productor nuevo vaya a ingresar, asignarle el código siguiente, en nuestro caso si entra un nuevo productor se le asignará el código 49, y con este se tienen dos opciones, dejarlo de ultimo siempre sin importar el nombre que tenga, u organizarlo en la base de datos con el orden alfabético pero así mismo se debe editar lo demás (incluirlo en las demás bases) para seguir con la misma organización para todos; la segunda opción sería lo ideal pero demanda mas tiempo.
 \end{itemize}
 \end{frame}
 \end{document}
