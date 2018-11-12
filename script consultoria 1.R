@@ -139,3 +139,45 @@ for (j in 1:length(datos[,1])) {
     }
   }
 }
+
+#Detectar datos atipicos pollos muertos:
+Tpollosmuertos<-as.data.frame(t(pollosmuertos))
+x11()
+boxplot(Tpollosmuertos$`ALBEIRO HERNANDEZ`)
+boxplot.stats(Tpollosmuertos$`ALBEIRO HERNANDEZ`)$out[2] #Puntos atipicos para el primer productor
+
+#Generalización y guardado de los resultados:
+PAtipicos<-data.frame(matrix(NA,nrow = 48,ncol = 5))
+colnames(PAtipicos)=c("cod",rep("Dato atipico",4))
+row.names(PAtipicos)=PROPUESTA_FUNDEMERCA_1_$Producor                      
+PAtipicos[,1]=1:48
+for (j in 1:length(datos[,1])) {
+  for (i in 2:6) {
+    if(anyNA(boxplot.stats(Tpollosmuertos[,j])$out[i-1])=="TRUE"){
+      is.na<-PAtipicos[j,i]
+    }else{
+      PAtipicos[j,i]=boxplot.stats(Tpollosmuertos[,j])$out[i-1]
+    }
+  }
+}
+
+#Detectar datos atipicos proporción de pollos muertos:
+Tproporcion<-as.data.frame(t(datos))
+x11()
+boxplot(Tproporcion$`ALBEIRO HERNANDEZ`)
+boxplot.stats(Tproporcion$`ALBEIRO HERNANDEZ`)$out #Puntos atipicos para el primer productor
+
+#Generalización y guardado de los resultados:
+PAtipicosbin<-data.frame(matrix(NA,nrow = 48,ncol = 5))
+colnames(PAtipicosbin)=c("cod",rep("Dato atipico",4))
+row.names(PAtipicosbin)=PROPUESTA_FUNDEMERCA_1_$Producor                      
+PAtipicosbin[,1]=1:48
+for (j in 1:length(datos[,1])) {
+  for (i in 2:6) {
+    if(anyNA(boxplot.stats(Tproporcion[,j])$out[i-1])=="TRUE"){
+      is.na<-PAtipicosbin[j,i]
+    }else{
+      PAtipicosbin[j,i]=boxplot.stats(Tproporcion[,j])$out[i-1]
+    }
+  }
+}
