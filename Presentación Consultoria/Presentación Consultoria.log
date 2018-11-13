@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  12 NOV 2018 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  13 NOV 2018 14:13
 entering extended mode
 **"./Presentación Consultoria.tex"
 ("Presentación Consultoria.tex"
@@ -1138,6 +1138,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ("Presentación Consultoria.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
 )
 \openout1 = `"Presentación Consultoria.aux"'.
 
@@ -1339,26 +1346,90 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [5
 
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 83.
+] <imagenes/BD.png, id=56, 1371.1225pt x 770.88pt>
+File: imagenes/BD.png Graphic file (type png)
+
+<use imagenes/BD.png>
+Package pdftex.def Info: imagenes/BD.png used on input line 84.
+(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 84--84
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.35014pt too high) detected at line 84
+ []
+
+[6
+
+ <./imagenes/BD.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 93.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 83.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Try loading font information for U+msb on input line 93.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 83.
+line 93.
 
 (C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
 thkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [6
+) [7
 
-] [7
+] <imagenes/IC.png, id=73, 1371.1225pt x 770.88pt>
+File: imagenes/IC.png Graphic file (type png)
+
+<use imagenes/IC.png>
+Package pdftex.def Info: imagenes/IC.png used on input line 101.
+(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 101--101
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.35014pt too high) detected at line 101
+ []
+
+[8
+
+ <./imagenes/IC.png>] [9
+
+] <imagenes/IF.png, id=87, 1371.1225pt x 770.88pt>
+File: imagenes/IF.png Graphic file (type png)
+
+<use imagenes/IF.png>
+Package pdftex.def Info: imagenes/IF.png used on input line 116.
+(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.116 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 116--116
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.35014pt too high) detected at line 116
+ []
+
+[10
+
+ <./imagenes/IF.png>] [11
+
+] [12
 
 ]
 \tf@nav=\write6
@@ -1370,14 +1441,14 @@ thkerncmss.
 \tf@snm=\write8
 \openout8 = `"Presentación Consultoria.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
  ("Presentación Consultoria.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 135.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 135.
 Package rerunfilecheck Info: File `"Presentación Consultoria".out' has not cha
 nged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1386,22 +1457,25 @@ nged.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 135.
  ) 
 Here is how much of TeX's memory you used:
- 17893 strings out of 493334
- 341558 string characters out of 3139234
- 417421 words of memory out of 3000000
- 20980 multiletter control sequences out of 15000+200000
+ 17939 strings out of 493334
+ 342099 string characters out of 3139234
+ 417485 words of memory out of 3000000
+ 21010 multiletter control sequences out of 15000+200000
  10695 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,532b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,57p,1040b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "Presentación Consultoria.pdf" (7 pages, 54973 bytes).
+Output written on "Presentación Consultoria.pdf" (12 pages, 308334 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 124 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
