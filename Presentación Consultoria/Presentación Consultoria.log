@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  13 NOV 2018 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  13 NOV 2018 20:12
 entering extended mode
 **"./Presentación Consultoria.tex"
 ("Presentación Consultoria.tex"
@@ -1433,11 +1433,11 @@ Overfull \vbox (4.35014pt too high) detected at line 116
  <./imagenes/IF.png>] [11
 
 ]
-<imagenes/GM.png, id=101, 879.285pt x 353.82187pt>
+<imagenes/GM.png, id=101, 950.04938pt x 375.65344pt>
 File: imagenes/GM.png Graphic file (type png)
  <use imagenes/GM.png>
 Package pdftex.def Info: imagenes/GM.png used on input line 132.
-(pdftex.def)             Requested size: 349.96898pt x 140.82437pt.
+(pdftex.def)             Requested size: 349.96898pt x 138.37627pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
  been already used, duplicate ignored
 <to be read again> 
@@ -1498,7 +1498,7 @@ Here is how much of TeX's memory you used:
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "Presentación Consultoria.pdf" (15 pages, 425255 bytes).
+Output written on "Presentación Consultoria.pdf" (15 pages, 406237 bytes).
 PDF statistics:
  146 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
