@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  29 NOV 2018 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  30 NOV 2018 13:25
 entering extended mode
-**"./Presentación Consultoria.tex"
-("Presentación Consultoria.tex"
+**"./Presentación Consultoría.tex"
+("Presentación Consultoría.tex"
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 
@@ -1135,21 +1135,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\newline' on input line 11.
 
-("Presentación Consultoria.aux"
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-
-LaTeX Warning: Label `figura1' multiply defined.
-
-)
-\openout1 = `"Presentación Consultoria.aux"'.
+No file "Presentación Consultoría".aux.
+\openout1 = `"Presentación Consultoría.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -1165,7 +1152,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1242,10 +1228,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
-
-("Presentación Consultoria.out") ("Presentación Consultoria.out")
 \@outlinefile=\write5
-\openout5 = `"Presentación Consultoria.out"'.
+\openout5 = `"Presentación Consultoría.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 15.
@@ -1333,7 +1317,8 @@ LaTeX Info: Redefining \. on input line 15.
 LaTeX Info: Redefining \% on input line 15.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 15.
- ("Presentación Consultoria.nav")
+
+No file "Presentación Consultoría".nav.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 21.
@@ -1349,7 +1334,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [5
 
-] <imagenes/BD.png, id=56, 1371.1225pt x 770.88pt>
+] <imagenes/BD.png, id=55, 1371.1225pt x 770.88pt>
 File: imagenes/BD.png Graphic file (type png)
 
 <use imagenes/BD.png>
@@ -1384,7 +1369,7 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 ) [7
 
-] <imagenes/IC.png, id=73, 1371.1225pt x 770.88pt>
+] <imagenes/IC.png, id=72, 1371.1225pt x 770.88pt>
 File: imagenes/IC.png Graphic file (type png)
 
 <use imagenes/IC.png>
@@ -1408,7 +1393,7 @@ Overfull \vbox (4.35014pt too high) detected at line 93
 
  <./imagenes/IC.png>] [9
 
-] <imagenes/IF.png, id=87, 1371.1225pt x 770.88pt>
+] <imagenes/IF.png, id=86, 1371.1225pt x 770.88pt>
 File: imagenes/IF.png Graphic file (type png)
 
 <use imagenes/IF.png>
@@ -1433,7 +1418,7 @@ Overfull \vbox (4.35014pt too high) detected at line 109
  <./imagenes/IF.png>] [11
 
 ]
-<imagenes/GM.png, id=101, 950.04938pt x 375.65344pt>
+<imagenes/GM.png, id=100, 950.04938pt x 375.65344pt>
 File: imagenes/GM.png Graphic file (type png)
  <use imagenes/GM.png>
 Package pdftex.def Info: imagenes/GM.png used on input line 126.
@@ -1462,48 +1447,54 @@ Overfull \hbox (7.67368pt too wide) in paragraph at lines 126--126
 
 ]
 \tf@nav=\write6
-\openout6 = `"Presentación Consultoria.nav"'.
+\openout6 = `"Presentación Consultoría.nav"'.
 
 \tf@toc=\write7
-\openout7 = `"Presentación Consultoria.toc"'.
+\openout7 = `"Presentación Consultoría.toc"'.
 
 \tf@snm=\write8
-\openout8 = `"Presentación Consultoria.snm"'.
+\openout8 = `"Presentación Consultoría.snm"'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
 
-("Presentación Consultoria.aux"
+("Presentación Consultoría.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
-Package rerunfilecheck Info: File `"Presentación Consultoria".out' has not cha
-nged.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
+
+Package rerunfilecheck Warning: File `"Presentación Consultoría".out' has cha
+nged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Presentación Consultoría".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 17961 strings out of 493334
- 342331 string characters out of 3139234
- 418442 words of memory out of 3000000
- 21021 multiletter control sequences out of 15000+200000
+ 17914 strings out of 493334
+ 341804 string characters out of 3139234
+ 418079 words of memory out of 3000000
+ 20982 multiletter control sequences out of 15000+200000
  10695 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,627b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,57p,628b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "Presentación Consultoria.pdf" (17 pages, 411701 bytes).
+Output written on "Presentación Consultoría.pdf" (17 pages, 411761 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
