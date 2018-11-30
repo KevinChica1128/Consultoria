@@ -41,6 +41,7 @@
 \item Problema general: El problema principal se centra en el manejo y validación de la información recogida y suministrada por los productores, la cuál se piensa que en algunos casos es errónea al no coincidir con la información final suministrada por la empresa contratante.
 \item Problemas detectados: Los problemas detectados en el proceso de solucionar el problema principal fueron los siguientes:
 \begin{itemize}
+\item[-]Ausencia de archivo de datos para realizar análisis y control estadístico.
 \item[-]Orden y codificación de los productores.
 \item[-]Falta de información (datos faltantes).
 \item[-]Falta de manejo y control estadístico de los datos.
@@ -53,7 +54,7 @@
 \begin{itemize}
 \justifying
 \item[-]Se creó un archivo general de datos, donde se suministró la información de cada productor por cada ciclo. Se trabajó con la cantidad inicial de pollos, y con la cantidad de pollos muertos.
-\item[-]La base de datos se organizó con los productores presentes en los últimos ciclos suministrados (75,76 y 77) ya que estos son con los que actualmente se esta trabajando. Tuvimos un total de 48 productores y de 28 ciclos (desde el ciclo 50 hasta el 77) de los cuales no habían datos en 6 de ellos (55,56,57,65,69 y 73), por lo cual el numero final de ciclos con los cuales se trabajo fue de 22.
+\item[-]La base de datos se organizó con los productores presentes en los últimos ciclos suministrados (75,76 y 77) ya que estos son con los que actualmente se esta trabajando. Tuvimos un total de 48 productores y de 28 ciclos (desde el ciclo 50 hasta el 77) de los cuales no habían datos en 6 de ellos (55,56,57,65,69 y 73), por lo que el numero final de ciclos con los que se trabajó fue de 22.
 \end{itemize}
 \end{frame}
 
@@ -95,7 +96,7 @@
 \frametitle{Metodología y análisis de datos}
 \begin{itemize}
 \justifying
-\item[-]Posteriormente, con todos los intervalos de cada productor, se generaron dos intervalos finales ó generales con los cuales se puede evaluar el desempeño del productor en todos los ciclos. El primero, es el intervalo ``flexible", el cuál se construyo con el mínimo de todos los limites inferiores y el máximo de todos los limites superiores; y el segundo, es el intervalo ``exigente", el cuál se construyó con el máximo de todos los limites inferiores y el mínimo de todos los limites superiores, esto lo que hace es disminuir significativamente la longitud del intervalo. 
+\item[-]Posteriormente, con todos los intervalos de cada productor, se generaron dos intervalos finales ó generales con los cuales se puede evaluar el desempeño del productor en todos los ciclos. El primero, es el intervalo ``flexible", el cuál se construyó con el mínimo de todos los limites inferiores y el máximo de todos los limites superiores; y el segundo, es el intervalo ``exigente", el cuál se construyó con el máximo de todos los limites inferiores y el mínimo de todos los limites superiores, esto lo que hace es disminuir significativamente la longitud del intervalo. 
 \end{itemize}
 \end{frame}
 
@@ -111,7 +112,7 @@
 \frametitle{Metodología y análisis de datos}
 \begin{itemize}
 \justifying
-\item[-]Para la evaluación de los ciclos también se decidió hacer descriptivas, así se puede saber a ciencia cierta si un ciclo tuvo complicaciones y basado en esto no ser injustos con algunos productores.
+\item[-]Para la evaluación de los ciclos también se decidió obtener estadísticas descriptivas, así se puede saber a ciencia cierta si un ciclo tuvo complicaciones y basado en esto no ser injustos con algunos productores.
 \item[-]Se realizó un gráfico que nos indica en cada ciclo que proporción de pollos se le murieron a cada productor, por ende, los productores que tienen mas picos en su gráfica indica que la mayoría del tiempo tiene proporciones grandes de muertes
 \end{itemize}
 \end{frame}
@@ -139,7 +140,7 @@
 \begin{itemize}
 \justifying
 \item[-]Se recomienda codificar los productores por orden alfabético para facilitar el manejo de los datos.
-\item[-]Cuando un productor no participe en un ciclo se recomienda no eliminarlo, simplemente se deja todo en blanco en dicho ciclo para ese productor, esto facilita que todo el proceso y los datos en general continúen con la misma forma y la misma longitud para evitar confusiones posteriores.
+\item[-]Cuando un productor no participe en un ciclo se recomienda no eliminarlo, simplemente no se registran datos en dicho ciclo para ese productor, esto facilita que todo el proceso y los datos en general continúen con la misma forma y la misma longitud para evitar confusiones posteriores.
 \item[-]Cuando un productor nuevo vaya a ingresar, asignarle el código siguiente, en nuestro caso si entra un nuevo productor se le asignará el código 49, y con este se tienen dos opciones, dejarlo de ultimo siempre sin importar el nombre que tenga, u organizarlo en la base de datos con el orden alfabético pero así mismo se debe editar lo demás (incluirlo en las demás bases) para seguir con la misma organización para todos; la segunda opción sería lo ideal pero demanda mas tiempo.
 \end{itemize}
 \end{frame}
@@ -151,6 +152,7 @@
 \item[-]Hacer un seguimiento anual de los productores para evaluar cuales son los mas eficientes y cuales presentan problemas en la producción (gran porcentaje de pollos muertos).
 \item[-]Analizar cada ciclo con el fin de detectar problemas en la producción a tiempo y solucionarlos.
 \item[-]Realizar una comparación a lo largo del tiempo de los diferentes años para identificar posibles factores que puedan hacer que un año sea mas productivo que otro.
+\item[-]Realizar una evaluación de costos, representando en términos económicos el mantenimiento de un pollo por día. Con esto, al final se logra dar un estimado de pérdidas económicas que generó cada productor dependiendo de la cantidad de pollos que se le murieron y en que fecha se murió cada uno.
 \end{itemize}
 \end{frame}
 
