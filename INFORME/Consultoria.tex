@@ -115,10 +115,26 @@ year = 2018]
 \section{Productos obtenidos}
 ~\\Con el archivo general y el análisis de datos realizado, se llegó a la conclusión de que se debe seguir teniendo un control y un orden en los datos de tal forma que se pueda realizar un análisis estadístico constantemente y de forma sencilla, con el fin de evaluar cada cierto tiempo como van los productores y los ciclos en general. Se crearon los siguientes archivos de datos:
 \subsection{Propuesta general}
-~\\
+~\\Este archivo cuenta con los 48 productores y 8 ciclos que corresponden a un año. Se deben ingresar la cantidad inicial de pollos y la cantidad de pollos muertos de cada productor en cada ciclo, y esté realizará el análisis estadístico automáticamente, se harán gráficos automáticos de la cantidad inicial y la cantidad de pollos muertos, se obtendrán estadísticas descriptivas, se obtiene el porcentaje de pollos muertos, el cuál es gráficado y se calculan automáticamente algunos datos importantes adicionales. Este archivo contiene los intervalos calculados con los datos de la historia, y finalmente calcula los nuevos intervalos para cada productor y se construye el intervalo final (exigente y flexible), los cuales también son gráficados.
 
 \subsection{Archivos individuales}
+~\\Estos archivos individuales se crearon para tener un análisis especifico por productor, también se debe registrar la cantidad inicial y la cantidad de pollos muertos, con esto se obtiene el porcentaje de mortalidad, se realiza la respectiva gráfica y finalmente se obtienen los intervalos los cuales también son gráficados.
+
 \section{Recomendaciones}
+~\\Las recomendaciones son las siguientes:
+\begin{itemize}
+\item[-]Se recomienda codificar los productores por orden alfabético para facilitar el manejo de los datos.
+\item[-]Cuando un productor no participe en un ciclo se recomienda no eliminarlo, simplemente no se registran datos en dicho ciclo para ese productor, esto facilita que todo el proceso y los datos en general continúen con la misma forma y la misma longitud para evitar confusiones posteriores.
+\item[-]Cuando un productor nuevo vaya a ingresar, asignarle el código siguiente, en nuestro caso si entra un nuevo productor se le asignará el código 49, y con este se tienen dos opciones, dejarlo de ultimo siempre sin importar el nombre que tenga, u organizarlo en la base de datos con el orden alfabético pero así mismo se debe editar lo demás (incluirlo en las demás bases) para seguir con la misma organización para todos; la segunda opción sería lo ideal pero demanda mas tiempo.
+item[-]Hacer un seguimiento anual de los productores para evaluar cuales son los mas eficientes y cuales presentan problemas en la producción (gran porcentaje de pollos muertos).
+\item[-]Analizar cada ciclo con el fin de detectar problemas en la producción a tiempo y solucionarlos.
+\item[-]Realizar una comparación a lo largo del tiempo de los diferentes años para identificar posibles factores que puedan hacer que un año sea mas productivo que otro.
+\item[-]Realizar una evaluación de costos, representando en términos económicos el mantenimiento de un pollo por día. Con esto, al final se logra dar un estimado de pérdidas económicas que generó cada productor dependiendo de la cantidad de pollos que se le murieron y en que fecha se murió cada uno.
+\item[-]Suministrar a los productores una bitácora en la cuál puedan llevar control diario sobre los pollos, la cuál debe incluir fecha en la que recibe los pollos, cuantos pollos recibió, cuanto alimento, fecha en la que se muere cada pollo, y otras variables que se consideren importantes para la empresa. Con esto se busca tener un control más estandarizado y mas estricto en cuanto a la cantidad de pollos muertos y las perdidas que estos pueden generar dependiendo de la fecha en que mueran.
+\item[-]Definir un plan de muestreo para los productores, con el fin de hacer una visita no anunciada al finalizar cada ciclo. Este plan de muestreo depende de la capacidad en cuanto a logística que tenga la empresa. El objetivo es poder visitar a los 48 productores en todo el año. En la visita se debe revisar la bitácora de los productores y revisar o realizar una especie de auditoria con ellos. 
+\item[-]Establecer un orden de subida de los pollos a los camiones, por ejemplo, agrupar cajas por cantidad de pollos (a un lado del camión poner las cajas que llevan 10 pollos, al otro lado las que llevan 11, en la mitad las que llevan 9, y así sucesivamente), esto con el fin de tener un conteo más exacto de los pollos que salen del productor hacía las bodegas. Esto lo puede realizar el mismo productor en una planilla que se les suministre, en la cuál puedan poner cuantas cajas subieron y con cuantos pollos.
+\item[-]Siguiendo la recomendación anterior, se debería estratificar dentro de las bodegas, es decir, dividir la bodega en tres espacios principales (grandes, medianos y pequeños productores) y dentro del mismo estrato o espacio, tener espacios individuales para cada productor. Con esto se logra un control más estricto sobre cada productor y se logra verificar fácilmente la cantidad de pollos que entregó, generando datos más precisos y confiables.
+\end{itemize}
 
 \bibliography{references}
 % //// --------------------------------------------------------------------------------
