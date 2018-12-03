@@ -73,9 +73,13 @@ library("HDInterval")
 library("TeachingDemos")
 
 #Cargamos la base de datos de los pollos muertos:
-pollosmuertos<- read_excel("PROPUESTA FUNDEMERCA (2.5).xlsx")
-pollosmuertos<-as.data.frame(pollosmuertos[,c(-1,-2)])
+pollosmuertos<- read_excel("ARCHIVO DE DATOS FUNDEMERCA.xlsx")
+pollosmuertos<-as.data.frame(pollosmuertos[c(-49,-50),c(-1,-2,-25,-26)])
 row.names(pollosmuertos)<-PROPUESTA_FUNDEMERCA_1_$Producor
+
+library(readxl)
+ARCHIVO_DE_DATOS_FUNDEMERCA <- read_excel("ARCHIVO DE DATOS FUNDEMERCA.xlsx")
+View(ARCHIVO_DE_DATOS_FUNDEMERCA)
 
 #Para el ciclo 50 del productor ALBEIRO HERNANDEZ
 L1<-rgamma(10000,pollosmuertos[1,1]+(1/2), rate=1) #Valores simulados de la aposteriori
@@ -147,12 +151,12 @@ boxplot(Tpollosmuertos$`ALBEIRO HERNANDEZ`)
 boxplot.stats(Tpollosmuertos$`ALBEIRO HERNANDEZ`)$out[2] #Puntos atipicos para el primer productor
 
 #Generalización y guardado de los resultados:
-PAtipicos<-data.frame(matrix(NA,nrow = 48,ncol = 5))
-colnames(PAtipicos)=c("cod",rep("Dato atipico",4))
+PAtipicos<-data.frame(matrix(NA,nrow = 48,ncol = 6))
+colnames(PAtipicos)=c("cod",rep("Dato atipico",5))
 row.names(PAtipicos)=PROPUESTA_FUNDEMERCA_1_$Producor                      
 PAtipicos[,1]=1:48
 for (j in 1:length(datos[,1])) {
-  for (i in 2:6) {
+  for (i in 2:7) {
     if(anyNA(boxplot.stats(Tpollosmuertos[,j])$out[i-1])=="TRUE"){
       is.na<-PAtipicos[j,i]
     }else{
