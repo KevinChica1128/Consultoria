@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  1 DEC 2018 11:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.9.23)  3 DEC 2018 13:46
 entering extended mode
 **"./Presentación Consultoría.tex"
 ("Presentación Consultoría.tex"
@@ -1148,6 +1148,21 @@ LaTeX Warning: Label `figura1' multiply defined.
 
 LaTeX Warning: Label `figura1' multiply defined.
 
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
+
+LaTeX Warning: Label `figura1' multiply defined.
+
 )
 \openout1 = `"Presentación Consultoría.aux"'.
 
@@ -1347,118 +1362,220 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [4
 
-] [5
-
-] <imagenes/BD.png, id=58, 1371.1225pt x 770.88pt>
+] <imagenes/BD.png, id=52, 1371.1225pt x 770.88pt>
 File: imagenes/BD.png Graphic file (type png)
 
 <use imagenes/BD.png>
-Package pdftex.def Info: imagenes/BD.png used on input line 78.
+Package pdftex.def Info: imagenes/BD.png used on input line 71.
 (pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
 
-Overfull \hbox (7.67368pt too wide) in paragraph at lines 78--78
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 71--71
  [][][][] 
  []
 
 
-Overfull \vbox (4.35014pt too high) detected at line 78
+Overfull \vbox (4.35014pt too high) detected at line 71
  []
 
-[6
+[5
 
- <./imagenes/BD.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 88.
+ <./imagenes/BD.png>] [6
 
-(C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
-thkerncmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-) [7
-
-] <imagenes/IC.png, id=75, 1371.1225pt x 770.88pt>
-File: imagenes/IC.png Graphic file (type png)
-
-<use imagenes/IC.png>
-Package pdftex.def Info: imagenes/IC.png used on input line 96.
-(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+]
+<imagenes/GPR.png, id=68, 767.11594pt x 440.39531pt>
+File: imagenes/GPR.png Graphic file (type png)
+ <use imagenes/GPR.png>
+Package pdftex.def Info: imagenes/GPR.png used on input line 91.
+(pdftex.def)             Requested size: 349.96898pt x 200.91776pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 \end{frame}
+l.91 \end{frame}
                 
-Overfull \hbox (7.67368pt too wide) in paragraph at lines 96--96
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 91--91
  [][][][] 
  []
 
 
-Overfull \vbox (4.35014pt too high) detected at line 96
+Overfull \vbox (8.51378pt too high) detected at line 91
+ []
+
+[7
+
+ <./imagenes/GPR.png>] <imagenes/GPM.png, id=77, 777.65532pt x 442.65375pt>
+File: imagenes/GPM.png Graphic file (type png)
+
+<use imagenes/GPM.png>
+Package pdftex.def Info: imagenes/GPM.png used on input line 99.
+(pdftex.def)             Requested size: 349.96898pt x 199.2126pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 \end{frame}
+                
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 99--99
+ [][][][] 
+ []
+
+
+Overfull \vbox (6.80862pt too high) detected at line 99
  []
 
 [8
 
- <./imagenes/IC.png>] [9
+ <./imagenes/GPM.png>] <imagenes/ED.png, id=85, 1371.1225pt x 770.88pt>
+File: imagenes/ED.png Graphic file (type png)
 
-] <imagenes/IF.png, id=89, 1371.1225pt x 770.88pt>
-File: imagenes/IF.png Graphic file (type png)
-
-<use imagenes/IF.png>
-Package pdftex.def Info: imagenes/IF.png used on input line 112.
+<use imagenes/ED.png>
+Package pdftex.def Info: imagenes/ED.png used on input line 107.
 (pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112 \end{frame}
+l.107 \end{frame}
                  
-Overfull \hbox (7.67368pt too wide) in paragraph at lines 112--112
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 107--107
  [][][][] 
  []
 
 
-Overfull \vbox (4.35014pt too high) detected at line 112
+Overfull \vbox (4.35014pt too high) detected at line 107
  []
 
-[10
+[9
 
- <./imagenes/IF.png>] [11
-
-]
-<imagenes/GM.png, id=103, 950.04938pt x 375.65344pt>
+ <./imagenes/ED.png>] <imagenes/GM.png, id=93, 950.04938pt x 375.65344pt>
 File: imagenes/GM.png Graphic file (type png)
- <use imagenes/GM.png>
-Package pdftex.def Info: imagenes/GM.png used on input line 129.
+
+<use imagenes/GM.png>
+Package pdftex.def Info: imagenes/GM.png used on input line 115.
 (pdftex.def)             Requested size: 349.96898pt x 138.37627pt.
 pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129 \end{frame}
+l.115 \end{frame}
                  
-Overfull \hbox (7.67368pt too wide) in paragraph at lines 129--129
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 115--115
+ [][][][] 
+ []
+
+[10
+
+ <./imagenes/GM.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 124.
+
+(C:\Users\KEVINSTEVEN\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\ot1ma
+thkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [11
+
+] <imagenes/GP.png, id=107, 927.465pt x 323.70938pt>
+File: imagenes/GP.png Graphic file (type png)
+
+<use imagenes/GP.png>
+Package pdftex.def Info: imagenes/GP.png used on input line 132.
+(pdftex.def)             Requested size: 349.96898pt x 122.15138pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.132 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 132--132
  [][][][] 
  []
 
 [12
 
- <./imagenes/GM.png>] [13
+ <./imagenes/GP.png>] [13
 
-] [14
+]
+<imagenes/GPROB.png, id=122, 874.76813pt x 264.99pt>
+File: imagenes/GPROB.png Graphic file (type png)
+ <use imagenes/GPROB.png>
+Package pdftex.def Info: imagenes/GPROB.png used on input line 150.
+(pdftex.def)             Requested size: 349.96898pt x 106.01433pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 150--150
+ [][][][] 
+ []
 
-] [15
+[14
 
-] [16
+ <./imagenes/GPROB.png>] <imagenes/IC.png, id=130, 1371.1225pt x 770.88pt>
+File: imagenes/IC.png Graphic file (type png)
 
-] [17
+<use imagenes/IC.png>
+Package pdftex.def Info: imagenes/IC.png used on input line 158.
+(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 158--158
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.35014pt too high) detected at line 158
+ []
+
+[15
+
+ <./imagenes/IC.png>] [16
+
+]
+<imagenes/IF.png, id=144, 1371.1225pt x 770.88pt>
+File: imagenes/IF.png Graphic file (type png)
+ <use imagenes/IF.png>
+Package pdftex.def Info: imagenes/IF.png used on input line 174.
+(pdftex.def)             Requested size: 349.96898pt x 196.75412pt.
+pdfTeX warning (ext4): destination with the same identifier (name{figura1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.174 \end{frame}
+                 
+Overfull \hbox (7.67368pt too wide) in paragraph at lines 174--174
+ [][][][] 
+ []
+
+
+Overfull \vbox (4.35014pt too high) detected at line 174
+ []
+
+[17
+
+ <./imagenes/IF.png>] [18
+
+] [19
+
+] [20
+
+] [21
 
 ]
 \tf@nav=\write6
@@ -1470,19 +1587,17 @@ Overfull \hbox (7.67368pt too wide) in paragraph at lines 129--129
 \tf@snm=\write8
 \openout8 = `"Presentación Consultoría.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
-
-("Presentación Consultoría.aux"
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+ ("Presentación Consultoría.aux"
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `"Presentación Consultoría".out' has not ch
 anged.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1490,22 +1605,22 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 17967 strings out of 493334
- 342533 string characters out of 3139234
+ 18008 strings out of 493334
+ 343123 string characters out of 3139234
  418458 words of memory out of 3000000
- 21027 multiletter control sequences out of 15000+200000
+ 21055 multiletter control sequences out of 15000+200000
  10695 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,17n,57p,628b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,17n,57p,787b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on "Presentación Consultoría.pdf" (17 pages, 412210 bytes).
+Output written on "Presentación Consultoría.pdf" (21 pages, 821371 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
