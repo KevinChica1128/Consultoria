@@ -125,7 +125,24 @@ de grado.tex}) and can be used as a guideline just replacing its contents. It is
 % -------------------------------------------------------------------------------------
 % Título de la primera sección
 % **** --------------------------------------------------------------------------------
+~\\En este documento se presentarán las instrucciones sobre el uso e interpretación del software y sus resultados. Se entregaron tres archivos, el archivo general de los datos, la propuesta general y la propuesta individual; de estos tres archivos, se les debe dar uso a los dos últimos, ya que el primero fue creado para realizar el análisis estadístico de los ciclos que han pasado y poder ver el comportamiento de todos los productores, estos resultados sirven como información previa para comparar los resultados posteriores que se obtendrán a medida que se suministra la información en los dos archivos (propuesta general e individual).
 
+\section{Propuesta general}
+~\\Las instrucciones de uso e interpretación sobre este archivo son las siguientes:
+\begin{itemize}
+\item[-]Al finalizar cada ciclo se debe registrar tanto la cantidad de pollos que recibe, como la cantidad de pollos muertos para cada productor.
+\item[-]La idea inicial es realizar el análisis al finalizar cada año (los 8 ciclos), pero si se dispone del tiempo suficiente, lo ideal es realizar un análisis al finalizar cada ciclo, observando los porcentajes de mortalidad, las proporciones, los intervalos y las gráficas que se van generando. Esto con el fin de tener un control mas estricto y encontrar ineficiencias de productores mas rápidamente.
+\item[-]El análisis no debe enfocarse solo en los productores, también se debe mirar como estuvieron los ciclos en general, ya que si en un ciclo, muchos productores tuvieron ineficiencias (altos porcentajes de mortalidad), puede no ser culpa de ellos como tal, si no de los insumos que se les dieron, con esto se logra no ser injustos con los productores. Este análisis se logra hacer rápidamente con el software, solo se requiere ver las cantidades por columnas y ver las estadísticas descriptivas de los ciclos y las respectivas gráficas que se generan.
+\item[-]Si un productor no participa en un ciclo, no se debe eliminar del archivo de datos, ya que esto puede generar confusiones y desajustes en las formulas y gráficas generadas; simplemente no se ingresan valores para ese productor en dicho ciclo.
+\item[-]Teniendo en cuenta lo anterior, si ya estamos seguros de que un productor no va a participar mas en el proceso, se deben eliminar todas las filas de ese productor en todas las hojas. Esto se debe realizar pulsando clic derecho en el número de la fila correspondiente al productor y clic en eliminar, se hace esta aclaración, ya que no es lo mismo seleccionar todos los valores o celdas y suprimir o borrar.
+\item[-]Si se va a añadir un nuevo productor, se le debe asignar el código siguiente, en este caso será el 49, este se debe insertar después del último productor en todas las hojas del archivo y se deben seleccionar todos los valores de las hojas ``porcentaje de mortalidad'' y ``intervalos generados'' y arrastarlos hasta el último productor para que las formulas empiecen a funcionar para este. Además de modificar esas dos hojas, también se deben modificar las formulas del total y el promedio y las formulas de las descriptivas en las hojas ``cantidad inicial'',``Muertes'' y ``Estadísticas descriptivas'', todas las formulas se les debe ampliar el rango en las que se aplican hasta los valores del nuevo productor.
+\end{itemize}
+
+\section{Propuesta individual}
+~\\Las instrucciones de uso e interpretación sobre este archivo son las siguientes:
+\begin{itemize}
+\item[-]
+\end{itemize}
 
 % //// --------------------------------------------------------------------------------
 % -------------------------------------------------------------------------------------
