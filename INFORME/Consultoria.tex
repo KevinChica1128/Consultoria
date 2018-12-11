@@ -15,7 +15,7 @@ department = Escuela de Estadística,
 program = Programa Académico de Estadística,
 subject = Consultoría,
 city = Cali,
-month = 11,
+month = 12,
 year = 2018]
 
 % -------------------------------------------------------------------------------------
@@ -83,7 +83,7 @@ year = 2018]
 \section{Problemas}
 \begin{itemize}
 \item Problema general: El problema principal se centra en el manejo y validación de la información recogida y suministrada por los productores, la cuál se piensa que en algunos casos es errónea al no coincidir con la información final suministrada por la empresa contratante.
-\item Problemas detectados: Los problemas detectados en el proceso de solucionar el problema principal fueron los siguientes:
+\item Problemas detectados: 
 \begin{itemize}
 \item[-]Ausencia de archivo de datos para realizar análisis y control estadístico.
 \item[-]Orden y codificación de los productores.
@@ -98,8 +98,8 @@ year = 2018]
 ~\\Para el tratamiento de datos se realizaron lo siguientes procedimientos:
 \begin{itemize}
 \item[-]Se creó un archivo general de datos, donde se suministró la información de cada productor por cada ciclo. Se trabajó con la cantidad inicial de pollos, y con la cantidad de pollos muertos.
-\item[-]La base de datos se organizó con los productores presentes en los últimos ciclos suministrados (75,76 y 77) ya que estos son con los que actualmente se esta trabajando. Tuvimos un total de 48 productores y de 28 ciclos (desde el ciclo 50 hasta el 77) de los cuales no habían datos en 6 de ellos (55,56,57,65,69 y 73), por lo que el numero final de ciclos con los que se trabajó fue de 22.
-\item[-]Se organizaron las bases de datos con respecto a los nombres de los productores por orden alfabético y se codificaron del 1 al 48, lo cuál hace mucho más fácil el tratamiento, el seguimiento y la administración de los datos.
+\item[-]El archivo de datos se organizó con los productores presentes en los últimos ciclos suministrados (75,76 y 77) ya que estos son con los que actualmente se esta trabajando. Tuvimos un total de 48 productores y de 28 ciclos (desde el ciclo 50 hasta el 77) de los cuales, en 6 de ellos (55,56,57,65,69 y 73) no había datos, de modo que que el numero final de ciclos con los que se trabajó fue de 22.
+\item[-]Se organizaron los archivos de datos con respecto a los nombres de los productores por orden alfabético y se codificaron del 1 al 48, lo cuál hace mucho más fácil el tratamiento, el seguimiento y la administración de los datos.
 
 \end{itemize}
 
@@ -108,12 +108,12 @@ year = 2018]
 \begin{itemize}
 \item[-]Con la cantidad inicial de pollos y la cantidad de pollos muertos por ciclo para cada productor se automatizó la proporción de pollos muertos.
 \item[-]Se realizaron gráficas de las cantidad inicial y la cantidad de pollos muertos que han tenido los productores en cada ciclo.
-\item[-]Para la evaluación de los ciclos también se decidió obtener estadísticas descriptivas, tanto de la cantidad inicial de pollos, como de la cantidad de pollos muertos, así se puede saber a ciencia cierta si un ciclo tuvo complicaciones y basado en esto no ser injustos con algunos productores.
-\item[-]Se realizó un gráfico que nos indica en cada ciclo qué proporción de pollos se le murieron a cada productor, por ende, los productores que tienen mas picos en su gráfica indica que la mayoría del tiempo tiene proporciones grandes de muertes.
-\item[-]Se calculó y se gráfico la proporción de veces que un productor tiene un porcentaje de mortalidad mayor al 5\%, con esto nos podemos dar cuenta si el productor estuvo la mayoría de los ciclos por encima del 5\% o si por el contrario, pocas veces se paso de dicho porcentaje.
-\item[-]Se calculó y se gráfico la proporción de veces que un ciclo tiene un porcentaje de mortalidad mayor al 5\%, con esto nos podemos dar cuenta si en un ciclo la mayoría de los productores estuvieron por encima del 5\% o si por el contrario, muy pocos productores se pasaron de dicho porcentaje.
-\item[-]Se calculó y se realizó la respectiva gráfica de la probabilidad de que cada productor tenga una proporción de pollos muertos mayor al 5\% en más de la mitad de los ciclos, esta probabilidad sirve para evaluar al productor individualmente.
-\item[-]Se calculó y se realizó la respectiva gráfica de la probabilidad de que en cada ciclo más de la mitad de los productores tengan una proporción de pollos muertos mayor al 5\%, está probabilidad sirve para evaluar cuales han sido los ciclos más críticos y analizar que ocurrió en ese ciclo en particular.
+\item[-]Para la evaluación de los ciclos se obtuvieron estadísticas descriptivas, tanto de la cantidad inicial de pollos, como de la cantidad de pollos muertos, con el fin de identificar posibles complicaciones debidas al ciclo y con base en esto no ser injustos con algunos productores.
+\item[-]Se graficaron las proporciones de pollos muertos por productor en todos los ciclos, con el fin de hacer comparaciones entre productores y entre ciclos.
+\item[-]Se calculó y se graficó la proporción de veces que un productor tiene un porcentaje de mortalidad mayor al 5\%, con esto nos podemos dar cuenta si el productor estuvo la mayoría de los ciclos por encima del 5\% o si por el contrario, pocas veces se paso de dicho porcentaje.
+\item[-]Se calculó y se graficó la proporción de veces que un ciclo tiene un porcentaje de mortalidad mayor al 5\%, con esto nos podemos dar cuenta si en un ciclo la mayoría de los productores estuvieron por encima del 5\% o si por el contrario, muy pocos productores se pasaron de dicho porcentaje.
+\item[-]Se calculó la probabilidad de que cada productor tenga una proporción de pollos muertos mayor al 5\% en más de la mitad de los ciclos, esta probabilidad predictiva sirve como un indicador que permite tener información para evaluar al productor de manera individual.
+\item[-]Se calculó la probabilidad de que en cada ciclo más de la mitad de los productores tengan una proporción de pollos muertos mayor al 5\%, esta probabilidad sirve como indicador para evaluar cuales son los ciclos críticos y hacer comparaciones entre ellos.
 \item[-]Para cada productor se obtuvo un intervalo para la proporción de pollos muertos con una probabilidad del 95\%, es decir, se entregó dos valores dentro de los cuales se espera que el 95\% de las veces este la proporción real de pollos muertos para ese productor. Esto se realizó para cada ciclo, en otras palabras, cada productor tendrá tantos intervalos como ciclos.
 \item[-]Posteriormente, con todos los intervalos de cada productor, se generaron dos intervalos finales ó generales con los cuales se puede evaluar el desempeño del productor en todos los ciclos. El primero, es el intervalo ``flexible", el cuál se construyó con el mínimo de todos los limites inferiores y el máximo de todos los limites superiores; y el segundo, es el intervalo ``exigente", el cuál se construyó con el máximo de todos los limites inferiores y el mínimo de todos los limites superiores, esto lo que hace es disminuir significativamente la longitud del intervalo. Estos intervalos fueron gráficados con una linea de referencia en el 5\% para saber el estado del productor con respecto al porcentaje de mortalidad admitido.
 \end{itemize}
@@ -131,7 +131,7 @@ year = 2018]
 \begin{itemize}
 \item[-]Se recomienda codificar los productores por orden alfabético para facilitar el manejo de los datos.
 \item[-]Cuando un productor no participe en un ciclo se recomienda no eliminarlo, simplemente no se registran datos en dicho ciclo para ese productor, esto facilita que todo el proceso y los datos en general continúen con la misma forma y la misma longitud para evitar confusiones posteriores.
-\item[-]Cuando un productor nuevo vaya a ingresar, asignarle el código siguiente, en nuestro caso si entra un nuevo productor se le asignará el código 49, y con este se tienen dos opciones, dejarlo de ultimo siempre sin importar el nombre que tenga, u organizarlo en la base de datos con el orden alfabético pero así mismo se debe editar lo demás (incluirlo en las demás bases) para seguir con la misma organización para todos; la segunda opción sería lo ideal pero demanda mas tiempo.
+\item[-]Cuando un productor nuevo vaya a ingresar, asignarle el código siguiente, en nuestro caso, sí entra un nuevo productor se le asignará el código 49, y con este se tienen dos opciones, dejarlo de ultimo siempre sin importar el nombre que tenga; u organizarlo en la base de datos con el orden alfabético. En cualquiera de los dos casos, debe tenerse en cuenta que se debe realizar el mismo ajuste en todos los archivos de datos generados para seguir con la misma organización; la segunda opción sería lo ideal pero demanda mas tiempo.
 \item[-]Hacer un seguimiento anual de los productores para evaluar cuales son los mas eficientes y cuales presentan problemas en la producción (gran porcentaje de pollos muertos).
 \item[-]Analizar cada ciclo con el fin de detectar problemas en la producción a tiempo y solucionarlos.
 \item[-]Realizar una comparación a lo largo del tiempo de los diferentes años para identificar posibles factores que puedan hacer que un año sea mas productivo que otro.
